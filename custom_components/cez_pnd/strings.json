@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ČEZ PND",
+        "description": "Připojení k lokálnímu ČEZ PND Bridge.",
+        "data": {
+          "bridge_url": "Adresa bridge",
+          "electrometer_id": "Číslo elektroměru"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Zadejte platnou adresu bridge včetně http://.",
+      "invalid_meter_id": "Číslo elektroměru musí obsahovat pouze číslice."
+    }
+  }
+}
